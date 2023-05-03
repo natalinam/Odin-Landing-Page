@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-photo {
+  background-color: #1f2937;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero-sub-text,
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.link-one {
+  flex: 0.2;
+}
+
+.link-two {
+  flex: 0.2;
+}
+
+.link-three {
+  flex: 0.2;
+}
+
+.container {
+  display: flex;
+}
