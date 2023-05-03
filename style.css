@@ -1,7 +1,22 @@
+* {
+  font-family: roboto;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+.hero-main-text,
+.hero-sub-text,
+.logo {
+  margin-left: 300px;
+}
+
+.hero-main-text,
+.hero-sub-text {
+  width: 400px;
 }
 
 .hero-photo {
@@ -15,12 +30,14 @@ body {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
+  margin-bottom: 0;
 }
 
 .hero-sub-text,
 li {
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 0;
 }
 
 .logo {
@@ -28,7 +45,6 @@ li {
   color: #f9faf8;
   flex: 1;
   margin-top: 10px;
-  margin-left: 300px;
 }
 
 button {
