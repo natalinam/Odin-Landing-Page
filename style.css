@@ -10,7 +10,8 @@ body {
 
 .hero-main-text,
 .hero-sub-text,
-.logo {
+.logo,
+button {
   margin-left: 300px;
 }
 
@@ -22,7 +23,7 @@ body {
 .hero-photo {
   background-color: #1f2937;
   width: 100%;
-  height: 400px;
+  height: 600px;
   position: absolute;
 }
 
@@ -73,4 +74,23 @@ ul {
 
 .container {
   display: flex;
+}
+
+button {
+  border-radius: 7px;
+  width: 110px;
+  height: 30px;
+  font-size: 17px;
+}
+
+.container-two {
+  display: flex;
+  margin-top: 40px;
+}
+
+img {
+  height: 300px;
+  width: 700px;
+  margin-left: 500px;
+  margin-top: 60px;
 }
